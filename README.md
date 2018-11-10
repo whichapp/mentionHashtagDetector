@@ -25,24 +25,23 @@ import whichappMHdetector
 //Making instance
 let mentionHashtag = mentionHashtagDetector()
 override func viewDidLoad() {
-super.viewDidLoad()
+    super.viewDidLoad()
 
-///Setting Delegates:
-//UITextView Delegate
-textView.delegate = self
-//mentionHashtagDetector Delegate
-mentionHashtag.delegate = self
-}
+    ///Setting Delegates:
+    //UITextView Delegate
+    textView.delegate = self
+    //mentionHashtagDetector Delegate
+    mentionHashtag.delegate = self
 }
 ```
 
 3- call **detectSign** function each time text change, simply calling this function under  `textViewDidChange`
 ```swift
 extension ViewController:UITextViewDelegate {
-func textViewDidChange(_ textView: UITextView) {
-///send every change in UITextView to the mentionHashtagDetector
-mentionHashtag.detectSign(textView: textView)
-}
+    func textViewDidChange(_ textView: UITextView) {
+        ///send every change in UITextView to the mentionHashtagDetector
+        mentionHashtag.detectSign(textView: textView)
+    }
 }
 ```
 
@@ -50,8 +49,9 @@ mentionHashtag.detectSign(textView: textView)
 ```swift
 ///Response of mentionHashtagDetector
 extension ViewController:mentionHashtagDetectorDelegate {
-func didSignDetected(_ text: String, _ signType: signTypeModels) {
-}
+    func didSignDetected(_ text: String, _ signType: signTypeModels) {
+        //Print("\(text)  Type=> \(signType)")
+    }
 }
 ```
 
