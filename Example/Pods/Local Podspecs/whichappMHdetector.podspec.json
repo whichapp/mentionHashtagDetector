@@ -1,0 +1,22 @@
+{
+  "name": "whichappMHdetector",
+  "version": "0.1.0",
+  "summary": "A short description of whichappMHdetector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sajjadsarkoobi/whichappMHdetector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sajjadsarkoobi": "ssarkoobi@communere.com"
+  },
+  "source": {
+    "git": "https://github.com/sajjadsarkoobi/whichappMHdetector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "whichappMHdetector/Classes/**/*"
+}

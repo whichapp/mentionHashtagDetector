@@ -1,0 +1,6 @@
+framework module Pods_whichappMHdetector_Tests {
+  umbrella header "Pods-whichappMHdetector_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

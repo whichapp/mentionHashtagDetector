@@ -1,0 +1,16 @@
+PODS:
+  - whichappMHdetector (0.1.0)
+
+DEPENDENCIES:
+  - whichappMHdetector (from `../`)
+
+EXTERNAL SOURCES:
+  whichappMHdetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  whichappMHdetector: 3c3aadd97a1da5815f168bab79017d8aecca9ee8
+
+PODFILE CHECKSUM: 11de7e7c5726843e1f8360ed482bef8db0215865
+
+COCOAPODS: 1.6.0.beta.2

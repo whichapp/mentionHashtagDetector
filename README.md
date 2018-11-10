@@ -22,7 +22,7 @@ pod 'whichappMHdetector'
 
 ## Author
 
-sajjadsarkoobi, ssarkoobi@communere.com
+sajjadsarkoobi, sarkoobi@whichapp.com
 
 ## License
 

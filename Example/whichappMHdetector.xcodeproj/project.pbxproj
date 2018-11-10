@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0E1B75EC2FB0DFB65C783EE9 /* Pods-whichappMHdetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whichappMHdetector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-whichappMHdetector_Tests/Pods-whichappMHdetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25FC2EF48EB3C8E20851E7AD /* Pods_whichappMHdetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whichappMHdetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ADE8696F00B2914473200AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4ADE8696F00B2914473200AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* whichappMHdetector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whichappMHdetector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		68D6A64CB80D6A6500088811 /* Pods-whichappMHdetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whichappMHdetector_Example.debug.xcconfig"; path = "Target Support Files/Pods-whichappMHdetector_Example/Pods-whichappMHdetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82D9F8F3BD343EB27FFEE4BB /* Pods_whichappMHdetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whichappMHdetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73752925727FF53C90FBC00 /* Pods-whichappMHdetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whichappMHdetector_Tests.release.xcconfig"; path = "Target Support Files/Pods-whichappMHdetector_Tests/Pods-whichappMHdetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AFEFBE7D9DAB1136FCAB565A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B1A8701BBD9860FDA8D2F192 /* whichappMHdetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = whichappMHdetector.podspec; path = ../whichappMHdetector.podspec; sourceTree = "<group>"; };
+		AFEFBE7D9DAB1136FCAB565A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1A8701BBD9860FDA8D2F192 /* whichappMHdetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = whichappMHdetector.podspec; path = ../whichappMHdetector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F2A08354E0058A236A999574 /* Pods-whichappMHdetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whichappMHdetector_Example.release.xcconfig"; path = "Target Support Files/Pods-whichappMHdetector_Example/Pods-whichappMHdetector_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				0E1B75EC2FB0DFB65C783EE9 /* Pods-whichappMHdetector_Tests.debug.xcconfig */,
 				A73752925727FF53C90FBC00 /* Pods-whichappMHdetector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

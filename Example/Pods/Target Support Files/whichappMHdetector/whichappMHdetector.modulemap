@@ -1,0 +1,6 @@
+framework module whichappMHdetector {
+  umbrella header "whichappMHdetector-umbrella.h"
+
+  export *
+  module * { export * }
+}
