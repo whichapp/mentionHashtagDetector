@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'whichappMHdetector_Example' do
+  pod 'whichappMHdetector', :path => '../'
+
+  target 'whichappMHdetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
