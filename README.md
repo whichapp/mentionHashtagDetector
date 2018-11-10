@@ -12,6 +12,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Description
 **whichappMHdetector** can detect `@` and `#` while you are typing or even if you move back cursor to a mention or hashtag word area and then you can edit it.
 
+![ImagePicker](https://github.com/whichapp/mentionHashtagDetector/blob/master/Example/whichappMHdetector/Images.xcassets/Mention.imageset/Menton.png)
+
+![ImagePicker](https://github.com/whichapp/mentionHashtagDetector/blob/master/Example/whichappMHdetector/Images.xcassets/hashtag.imageset/hashtag.png)
+
+
 ## Usage
 
 1- Import **whichappMHdetector**
