@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033BEB42655C7C090F69737B2D1C2159 /* whichappMHdetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E5168663F94D219416CFFD8F74A99 /* whichappMHdetector-dummy.m */; };
 		0CECBB122F26403947CCC0AD84D11A4E /* Pods-whichappMHdetector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE171CA5E9C4FD4804F337C78ECB7CA /* Pods-whichappMHdetector_Tests-dummy.m */; };
-		154017EB277B1153FF9FE014A4EE3306 /* mentionHashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C49D1B76FCFC887D82F69B44BC1498 /* mentionHashtag.swift */; };
+		1982F355BB2D69AC64AFF400DCC44535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		1EE1A1196BAE5CC215B01112CD49861C /* mentionHashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC49CE9346EEF3176275181E116489 /* mentionHashtag.swift */; };
 		204071F87835494789AB1B40DC04C9AD /* Pods-whichappMHdetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1829DC397262452812CABB55B55563DB /* Pods-whichappMHdetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		266895AFBA83B30858365B2B46E37F26 /* whichappMHdetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71940219748E4EBEE99C05A66CA6D212 /* whichappMHdetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BC7BE0C9133E84146FE0ACB4276CFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		266895AFBA83B30858365B2B46E37F26 /* whichappMHdetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4E9360A59C2B341A1C5C9352C24D13 /* whichappMHdetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC7BE0C9133E84146FE0ACB4276CFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		87CCE24146F9443D417E6AEEE524ACCE /* whichappMHdetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A1F4B9412BB10BCA2B3B3A350115E /* whichappMHdetector-dummy.m */; };
 		B465E0EF0844F1CF7F3F196FFE8C18FF /* Pods-whichappMHdetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2B1F021037E05460AEB1B344065AD4 /* Pods-whichappMHdetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B79C0234D12A0B03BA3212E33F387177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BE67D4E10294662B10AFEDDB8D11444C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		DB7406D12DEEC704DC22A862B31D1627 /* Pods-whichappMHdetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBA3E40A1173F76F93A8BBE06A717E /* Pods-whichappMHdetector_Example-dummy.m */; };
-		FFC3FA2F112A3B0865EA41859FBA9C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FFC3FA2F112A3B0865EA41859FBA9C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,46 +38,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F844A099DC4CD9CC43790A885F63D98 /* whichappMHdetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "whichappMHdetector-prefix.pch"; sourceTree = "<group>"; };
 		1795DE8EB30A4028C55CDC964173579F /* Pods-whichappMHdetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whichappMHdetector_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1829DC397262452812CABB55B55563DB /* Pods-whichappMHdetector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whichappMHdetector_Example-umbrella.h"; sourceTree = "<group>"; };
 		21EC92AE46B7F5C4245912EBB3C2491B /* Pods-whichappMHdetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whichappMHdetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E07C9C229A2203736EF3F0882BBAD80 /* Pods-whichappMHdetector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whichappMHdetector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		314E3F0666664750C3A64F8326E42FEE /* Pods-whichappMHdetector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whichappMHdetector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		372517972AEF729D28E5AD3EC1C4FA5C /* Pods-whichappMHdetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whichappMHdetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3C443115E146835B0831EE3AA2E789FB /* whichappMHdetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = whichappMHdetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6EB15C92F0839DE23A2870B2CB87C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C443115E146835B0831EE3AA2E789FB /* whichappMHdetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = whichappMHdetector.framework; path = whichappMHdetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		475ECB673784418C8D66D8870A51D409 /* Pods-whichappMHdetector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whichappMHdetector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		547F8E3E424AE9004C2A595F4C6E275F /* whichappMHdetector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = whichappMHdetector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6CD167F5E66B1027B788A9EB7F3B29C5 /* whichappMHdetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "whichappMHdetector-prefix.pch"; sourceTree = "<group>"; };
-		71940219748E4EBEE99C05A66CA6D212 /* whichappMHdetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "whichappMHdetector-umbrella.h"; sourceTree = "<group>"; };
+		55F04021AFA97921C19C31AB032E49F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B9FF355BB9EA0B49CCE2B08D2B548E8 /* whichappMHdetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = whichappMHdetector.modulemap; sourceTree = "<group>"; };
+		6A9A1F4B9412BB10BCA2B3B3A350115E /* whichappMHdetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "whichappMHdetector-dummy.m"; sourceTree = "<group>"; };
+		6F4E9360A59C2B341A1C5C9352C24D13 /* whichappMHdetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "whichappMHdetector-umbrella.h"; sourceTree = "<group>"; };
 		72F8E1A55BCA7C352A7D0C3E888F5BDB /* Pods-whichappMHdetector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whichappMHdetector_Example-Info.plist"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7A2B1F021037E05460AEB1B344065AD4 /* Pods-whichappMHdetector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whichappMHdetector_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7EF6C24454076E724A1E652CF4B92D46 /* Pods_whichappMHdetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whichappMHdetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81FCAEE779923775F9F2A4034D6DA23A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7EF6C24454076E724A1E652CF4B92D46 /* Pods_whichappMHdetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whichappMHdetector_Example.framework; path = "Pods-whichappMHdetector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBA3E40A1173F76F93A8BBE06A717E /* Pods-whichappMHdetector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whichappMHdetector_Example-dummy.m"; sourceTree = "<group>"; };
 		86167B7DE7DCA4F905836E642DE44DE9 /* Pods-whichappMHdetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-whichappMHdetector_Example.modulemap"; sourceTree = "<group>"; };
-		88780147BD596086707A6875C849D2C0 /* whichappMHdetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = whichappMHdetector.modulemap; sourceTree = "<group>"; };
 		91DC1758EB9AD8DCB83DA69A5FB9EABC /* Pods-whichappMHdetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whichappMHdetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9705C2719A31E19726AFF479D77551DD /* whichappMHdetector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = whichappMHdetector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		976E5E4482EF18C5B41944CAEF3D39E8 /* Pods-whichappMHdetector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whichappMHdetector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C5DD4761B742BE92192E1EC3BA924AF /* Pods-whichappMHdetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-whichappMHdetector_Tests.modulemap"; sourceTree = "<group>"; };
-		B24E0872D2BD5DB0E778FEFB70A56F26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7C49D1B76FCFC887D82F69B44BC1498 /* mentionHashtag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = mentionHashtag.swift; path = whichappMHdetector/Classes/mentionHashtag.swift; sourceTree = "<group>"; };
-		BAC58423F23091BC3A7210AC21F49F98 /* whichappMHdetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "whichappMHdetector-Info.plist"; sourceTree = "<group>"; };
-		C50B60F9C22F14A9E44216FBF433352F /* Pods_whichappMHdetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whichappMHdetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF651E42406AA4D2DF6B8E9101D85FB /* whichappMHdetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "whichappMHdetector-Info.plist"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B832FE626471A4CCBB79646358266E5D /* whichappMHdetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = whichappMHdetector.xcconfig; sourceTree = "<group>"; };
+		C50B60F9C22F14A9E44216FBF433352F /* Pods_whichappMHdetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whichappMHdetector_Tests.framework; path = "Pods-whichappMHdetector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C764A0A867398D0EC8D6B0DF047DE92E /* Pods-whichappMHdetector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whichappMHdetector_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CDE171CA5E9C4FD4804F337C78ECB7CA /* Pods-whichappMHdetector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whichappMHdetector_Tests-dummy.m"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E02681B2CA80E2AFAE1171948A87243D /* whichappMHdetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = whichappMHdetector.xcconfig; sourceTree = "<group>"; };
+		CFAC49CE9346EEF3176275181E116489 /* mentionHashtag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = mentionHashtag.swift; path = whichappMHdetector/Classes/mentionHashtag.swift; sourceTree = "<group>"; };
 		ED10CBBCD2D370B3E5B0E30811E3DF8E /* Pods-whichappMHdetector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whichappMHdetector_Tests-Info.plist"; sourceTree = "<group>"; };
-		F46E5168663F94D219416CFFD8F74A99 /* whichappMHdetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "whichappMHdetector-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C938C13E2107BB3D0B40861AFE84DCF /* Frameworks */ = {
+		16AF89EDEB62714C6050BF6E778E38D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79C0234D12A0B03BA3212E33F387177 /* Foundation.framework in Frameworks */,
+				BE67D4E10294662B10AFEDDB8D11444C /* Foundation.framework in Frameworks */,
+				1982F355BB2D69AC64AFF400DCC44535 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,18 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E014DF2017F89791CEE87A843309892 /* Support Files */ = {
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				88780147BD596086707A6875C849D2C0 /* whichappMHdetector.modulemap */,
-				E02681B2CA80E2AFAE1171948A87243D /* whichappMHdetector.xcconfig */,
-				F46E5168663F94D219416CFFD8F74A99 /* whichappMHdetector-dummy.m */,
-				BAC58423F23091BC3A7210AC21F49F98 /* whichappMHdetector-Info.plist */,
-				6CD167F5E66B1027B788A9EB7F3B29C5 /* whichappMHdetector-prefix.pch */,
-				71940219748E4EBEE99C05A66CA6D212 /* whichappMHdetector-umbrella.h */,
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/whichappMHdetector";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1384A3F4DD0A02E8ED07620615CE29F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55F04021AFA97921C19C31AB032E49F9 /* LICENSE */,
+				3B6EB15C92F0839DE23A2870B2CB87C0 /* README.md */,
+				9705C2719A31E19726AFF479D77551DD /* whichappMHdetector.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		390E47E3B133EBF428EEAAA493231EAC /* Targets Support Files */ = {
@@ -139,22 +147,37 @@
 			path = "Target Support Files/Pods-whichappMHdetector_Example";
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4F5123919085F521C600059B5FCF2F3F /* Pod */ = {
+		44E251D3F006E3D7A851A94453D82687 /* whichappMHdetector */ = {
 			isa = PBXGroup;
 			children = (
-				81FCAEE779923775F9F2A4034D6DA23A /* LICENSE */,
-				B24E0872D2BD5DB0E778FEFB70A56F26 /* README.md */,
-				547F8E3E424AE9004C2A595F4C6E275F /* whichappMHdetector.podspec */,
+				CFAC49CE9346EEF3176275181E116489 /* mentionHashtag.swift */,
+				1384A3F4DD0A02E8ED07620615CE29F7 /* Pod */,
+				4E67A0B558D26C2ECD2F320F0B5C6350 /* Support Files */,
 			);
-			name = Pod;
+			name = whichappMHdetector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E67A0B558D26C2ECD2F320F0B5C6350 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B9FF355BB9EA0B49CCE2B08D2B548E8 /* whichappMHdetector.modulemap */,
+				B832FE626471A4CCBB79646358266E5D /* whichappMHdetector.xcconfig */,
+				6A9A1F4B9412BB10BCA2B3B3A350115E /* whichappMHdetector-dummy.m */,
+				9EF651E42406AA4D2DF6B8E9101D85FB /* whichappMHdetector-Info.plist */,
+				0F844A099DC4CD9CC43790A885F63D98 /* whichappMHdetector-prefix.pch */,
+				6F4E9360A59C2B341A1C5C9352C24D13 /* whichappMHdetector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/whichappMHdetector";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -162,7 +185,7 @@
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				BAAD6D90CC7CEDBCD47C149328D91B40 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				929AF236BEB1F4A19F0D09CE9F826952 /* Products */,
 				390E47E3B133EBF428EEAAA493231EAC /* Targets Support Files */,
 			);
@@ -181,28 +204,9 @@
 		BAAD6D90CC7CEDBCD47C149328D91B40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF4CB64117578960D1A5E4B621CDD2F6 /* whichappMHdetector */,
+				44E251D3F006E3D7A851A94453D82687 /* whichappMHdetector */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CF4CB64117578960D1A5E4B621CDD2F6 /* whichappMHdetector */ = {
-			isa = PBXGroup;
-			children = (
-				B7C49D1B76FCFC887D82F69B44BC1498 /* mentionHashtag.swift */,
-				4F5123919085F521C600059B5FCF2F3F /* Pod */,
-				1E014DF2017F89791CEE87A843309892 /* Support Files */,
-			);
-			name = whichappMHdetector;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E43CAAEF40A7152A4F3B7AB26E1E2F65 /* Pods-whichappMHdetector_Tests */ = {
@@ -275,8 +279,8 @@
 			buildConfigurationList = 0A965ADB00AE50179321ADDB0915B01D /* Build configuration list for PBXNativeTarget "whichappMHdetector" */;
 			buildPhases = (
 				8569CDB6F7B3B24D755C19913B529188 /* Headers */,
-				7C264769F361D4ED80BFEC396E557FFC /* Sources */,
-				0C938C13E2107BB3D0B40861AFE84DCF /* Frameworks */,
+				4F7ED6B8FA1348B4F501EA5816EFAE49 /* Sources */,
+				16AF89EDEB62714C6050BF6E778E38D3 /* Frameworks */,
 				C408C13F430264197DB5B797991A4F2D /* Resources */,
 			);
 			buildRules = (
@@ -360,12 +364,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C264769F361D4ED80BFEC396E557FFC /* Sources */ = {
+		4F7ED6B8FA1348B4F501EA5816EFAE49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154017EB277B1153FF9FE014A4EE3306 /* mentionHashtag.swift in Sources */,
-				033BEB42655C7C090F69737B2D1C2159 /* whichappMHdetector-dummy.m in Sources */,
+				1EE1A1196BAE5CC215B01112CD49861C /* mentionHashtag.swift in Sources */,
+				87CCE24146F9443D417E6AEEE524ACCE /* whichappMHdetector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,11 +558,44 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		75A027A4B21CE91A0B9668BC99EC55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B832FE626471A4CCBB79646358266E5D /* whichappMHdetector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/whichappMHdetector/whichappMHdetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector.modulemap";
+				PRODUCT_MODULE_NAME = whichappMHdetector;
+				PRODUCT_NAME = whichappMHdetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8E3E200FD52479CF45655467B3E142E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -627,37 +664,6 @@
 			};
 			name = Release;
 		};
-		A54F1BC72DB4F87E7B39618E6A30F80E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02681B2CA80E2AFAE1171948A87243D /* whichappMHdetector.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/whichappMHdetector/whichappMHdetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector.modulemap";
-				PRODUCT_MODULE_NAME = whichappMHdetector;
-				PRODUCT_NAME = whichappMHdetector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E981AD13E02DF830DC97EADE7D9A5311 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21EC92AE46B7F5C4245912EBB3C2491B /* Pods-whichappMHdetector_Example.debug.xcconfig */;
@@ -691,10 +697,11 @@
 			};
 			name = Debug;
 		};
-		EA464B7F460528DD36E7F7306ED8F5A2 /* Release */ = {
+		FCDFD0B63A33ADD85DF7EDCCA96DF95C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02681B2CA80E2AFAE1171948A87243D /* whichappMHdetector.xcconfig */;
+			baseConfigurationReference = B832FE626471A4CCBB79646358266E5D /* whichappMHdetector.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,7 +714,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/whichappMHdetector/whichappMHdetector-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/whichappMHdetector/whichappMHdetector.modulemap";
 				PRODUCT_MODULE_NAME = whichappMHdetector;
@@ -729,8 +736,8 @@
 		0A965ADB00AE50179321ADDB0915B01D /* Build configuration list for PBXNativeTarget "whichappMHdetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A54F1BC72DB4F87E7B39618E6A30F80E /* Debug */,
-				EA464B7F460528DD36E7F7306ED8F5A2 /* Release */,
+				75A027A4B21CE91A0B9668BC99EC55F7 /* Debug */,
+				FCDFD0B63A33ADD85DF7EDCCA96DF95C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

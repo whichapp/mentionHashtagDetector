@@ -1,22 +1,24 @@
 {
   "name": "whichappMHdetector",
   "version": "0.1.0",
-  "summary": "A short description of whichappMHdetector.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sajjadsarkoobi/whichappMHdetector",
+  "summary": "Detecting @ and # in UITextView and UITextField.",
+  "description": "Detecting Mention `@` and Hashtag `#` in UITextView and UITextField. it will automatically detect the word while user typing and distinguishing the type of it. you just need to set delegate and call mentionHashtagDetector func under the textDidChange(_:).",
+  "homepage": "https://github.com/whichapp/mentionHashtagDetector",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sajjadsarkoobi": "ssarkoobi@communere.com"
+    "sajjadsarkoobi": "sarkoobi@whichapp.com"
   },
   "source": {
-    "git": "https://github.com/sajjadsarkoobi/whichappMHdetector.git",
+    "git": "https://github.com/whichapp/mentionHashtagDetector.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "whichappMHdetector/Classes/**/*"
+  "swift_version": "4.0",
+  "source_files": "whichappMHdetector/Classes/**/*",
+  "frameworks": "UIKit"
 }

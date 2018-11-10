@@ -119,9 +119,11 @@ public final class mentionHashtagDetector {
         
         if signDetected {
             signText = text.substring(with: positionofSign..<nextSpacePosition)
-            delegate?.didSignDetected(signText,signtype)
+        }else{
+            signText = ""
         }
-        
+        delegate?.didSignDetected(signText,signtype)
+
     }
     
     private func charHasSign(text:String) ->Bool {
