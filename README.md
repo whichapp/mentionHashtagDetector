@@ -1,6 +1,6 @@
 # whichappMHdetector
 
-[![CI Status](https://img.shields.io/travis/whichapp/whichappMHdetector.svg?style=flat)](https://travis-ci.org/sajjadsarkoobi/whichappMHdetector)
+[![CI Status](https://img.shields.io/travis/whichapp/whichappMHdetector.svg?style=flat)](https://travis-ci.org/whichapp/whichappMHdetector)
 [![Version](https://img.shields.io/cocoapods/v/whichappMHdetector.svg?style=flat)](https://cocoapods.org/pods/whichappMHdetector)
 [![License](https://img.shields.io/cocoapods/l/whichappMHdetector.svg?style=flat)](https://cocoapods.org/pods/whichappMHdetector)
 [![Platform](https://img.shields.io/cocoapods/p/whichappMHdetector.svg?style=flat)](https://cocoapods.org/pods/whichappMHdetector)
