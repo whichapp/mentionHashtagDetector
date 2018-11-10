@@ -20,20 +20,15 @@ class ViewController: UIViewController {
     
     //Variables
     let mentionHashtag = mentionHashtagDetector()
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         ///Setting Delegates:
         //UITextView Delegate
         textView.delegate = self
-        
         //mentionHashtagDetector Delegate
         mentionHashtag.delegate = self
-        
     }
-
 }
 
 extension ViewController:UITextViewDelegate {

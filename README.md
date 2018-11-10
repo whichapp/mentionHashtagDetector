@@ -9,7 +9,54 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Description
+**whichappMHdetector** can detect `@` and `#` while you are typing or even if you move back cursor to a mention or hashtag word area and then you can edit it.
+
+## Usage
+
+1- Import **whichappMHdetector**
+```swift
+import UIKit
+import whichappMHdetector
+```
+
+2- make an instance of **mentionHashtagDetector** and set the delegates
+```swift
+//Making instance
+let mentionHashtag = mentionHashtagDetector()
+override func viewDidLoad() {
+super.viewDidLoad()
+
+///Setting Delegates:
+//UITextView Delegate
+textView.delegate = self
+//mentionHashtagDetector Delegate
+mentionHashtag.delegate = self
+}
+}
+```
+
+3- call **detectSign** function each time text change, simply calling this function under  `textViewDidChange`
+```swift
+extension ViewController:UITextViewDelegate {
+func textViewDidChange(_ textView: UITextView) {
+///send every change in UITextView to the mentionHashtagDetector
+mentionHashtag.detectSign(textView: textView)
+}
+}
+```
+
+4- listen to **mentionHashtagDetectorDelegate**
+```swift
+///Response of mentionHashtagDetector
+extension ViewController:mentionHashtagDetectorDelegate {
+func didSignDetected(_ text: String, _ signType: signTypeModels) {
+}
+}
+```
+
+5- Done :)
+
 
 ## Installation
 
