@@ -9,19 +9,18 @@
 import Foundation
 import UIKit
 
-enum signTypeModels {
+public enum signTypeModels {
     case hashTag
     case mention
     case normal
 }
 
-protocol mentionHashtagDetectorDelegate {
+public protocol mentionHashtagDetectorDelegate {
     func didSignDetected(_ text:String,_ signType:signTypeModels)
 }
 
-//var mentionHashtagDetector : mentionHashtag = mentionHashtag()
 
-class mentionHashtagDetector {
+public final class mentionHashtagDetector {
     
     
     public func detectSign(textView:UITextView){
@@ -32,6 +31,11 @@ class mentionHashtagDetector {
             }
         }
     }
+    
+    public init(){
+
+    }
+    
     
     //////////////
     private var signText:String = ""
