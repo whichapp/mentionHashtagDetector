@@ -80,4 +80,6 @@ sajjadsarkoobi, sarkoobi@whichapp.com
 
 ## License
 
-whichappMHdetector is available under the MIT license. See the LICENSE file for more info.
+whichappMHdetector is available under the MIT license. See the LICENSE file for more info. 
+Created for [HICH](https://www.hichapp.com)
+
